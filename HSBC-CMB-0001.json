@@ -1,0 +1,46 @@
+{
+  "mappings" : [ {
+    "id" : "4af88fd8-a6a2-4148-9445-97fb4fad6bc3",
+    "name" : "HSBC-CMB-0001-002",
+    "request" : {
+      "urlPath" : "/openApi/hsbc/banking/ageCertificate/v1",
+      "method" : "GET",
+      "queryParameters" : {
+        "minimumAge" : {
+          "equalTo" : "hsbc"
+        }
+      }
+    },
+    "response" : {
+      "status" : 400,
+      "body" : "{\"code\":2,\"message\":\"Invalid Parameter\"}",
+      "headers" : {
+        "Content-Type" : "application/json"
+      }
+    },
+    "uuid" : "4af88fd8-a6a2-4148-9445-97fb4fad6bc3"
+  }, {
+    "id" : "9f271f23-e262-440d-8e84-69313c9660d2",
+    "name" : "HSBC-CMB-0001-001",
+    "request" : {
+      "urlPath" : "/openApi/hsbc/banking/ageCertificate/v1",
+      "method" : "GET",
+      "queryParameters" : {
+        "minimumAge" : {
+          "equalTo" : "integer"
+        }
+      }
+    },
+    "response" : {
+      "status" : 200,
+      "body" : "{\"ageCheck\":false}",
+      "headers" : {
+        "Content-Type" : "application/json"
+      }
+    },
+    "uuid" : "9f271f23-e262-440d-8e84-69313c9660d2"
+  } ],
+  "meta" : {
+    "total" : 2
+  }
+}
