@@ -1,0 +1,139 @@
+{
+  "retailApplicant": {
+    "retailDemographic": {
+      "partyDoc": [
+        {
+         "docType": "CRN",
+		 "docNumber": "5012548555"
+        }
+      ],
+      "partyName": {
+        "fullName": "string",
+        "fullName": "Ahmad Aziz Bin Jafar Kadir",
+		"name": {
+		  "firstName": "Ahmad Aziz",
+		  "middleName": " ",
+		  "lastName": "Bin Jafar Kadir"
+		},
+		"nameSuffix": "Ahmad",
+		"salutation": "Dear Mrs Byrne",
+		"alias": "Ahmad Aziz",
+		"localFullName": "Ahmad Aziz",
+		"localAlias": "Ahmad Aziz"
+      },
+      "dateOfBirth": "1983-07-08",
+	  "ethnicGroup": "Han nationality",
+	  "gender": "man",
+	  "maritalStatus": "married",
+	  "educationLevel": "Undergraduate",
+	  "nationality": "US",
+	  "residenceCtry": "US",
+	  "isPermanentResident": true,
+	  "isTaxResident": true,
+	  "applicantRole": "General manager",
+	  "relationship": "no",
+	  "numberOfDependents": 1,
+	  "isBankStaff": true
+    },
+     "employment": [
+	  {
+		"employerName": "5YWs5Y+4IG9mIDAwMDAwMjU5NQ==",
+		"jobTitle": "Regional Head ",
+		"occupationGroup": " ",
+		"occupation": "manager",
+		"isCurrentEmployment": true,
+		"employmentStatus": "Incumbent",
+		"fixedMonthlyIncome": {
+		  "amount": 8000,
+		  "currency": "USD"
+		},
+		"annualIncome": {
+		  "amount": 100000,
+		  "currency": "USD"
+		},
+		"incomeSupportingDocument": "Please upload the complete income proof document so that you can handle the business faster",
+		"isIncomeDerivedLocally": true,
+		"yearOfAssessment": 2020,
+		"employmentPeriod": {
+		  "numberOfYears": 2,
+		  "numberOfMonths": 5
+		},
+		"employmentPassExpiryDate": "2020-07-08"
+	  }
+	],
+	 "otherIncomes": [
+	  {
+		"incomeCategory": "Investment finance",
+		"incomeSource": "incomeSource",
+		"otherMonthlyIncome": {
+		  "amount": 1000,
+		  "currency": "USD"
+		},
+		"totalIncome": {
+		  "amount": 1000,
+		  "currency": "USD"
+		},
+		"pledgeAmount": {
+		  "amount": 0,
+		  "currency": "USD"
+		}
+	  }
+	],
+     "contactDetl": {
+	  "phoneDetl": [
+		{
+		  "phoneId": "7uy8a7e4-6d02-40e3-a129",
+		  "phone": {
+			"phoneType": "telephone",
+			"phoneCtryCode": "954907",
+			"phoneAreaCode": "44",
+			"phoneNumber": "+44 07972 444 876",
+			"phoneExtension": "No"
+		  }
+		}
+	  ],
+	  "emailDetl": [
+		{
+		  "emailId": "9ca9a7e4-6d02-40e3-a129",
+		  "emailAddressDetl": {
+			"emailAddressType": "Company",
+			"emailAddress": "felixsmith@hsbc.com"
+		  }
+		}
+	  ],
+	  "addressDetl": [
+		{
+		  "addressId": "5995d6a2-01b3-423c-a173",
+		  "addressType": "Home",
+		  "address": {
+			"localAddress": {
+			  "addressLine1": "No 1 the Road",
+			  "addressLine2": "The Place",
+			  "addressLine3": "The Hill",
+			  "addressLine4": " ",
+			  "addressLine5": " ",
+			  "building": "Brandenburg",
+			  "block": "Residential area",
+			  "level": "15",
+			  "unit": "3",
+			  "postalCode": "13359",
+			  "estate": "Brandenburg",
+			  "city": "Berlin",
+			  "country": "Germany"
+			},
+			"overseasAddress": {
+			  "addressLine1": "No 1 the Road",
+			  "addressLine2": "The Place",
+			  "addressLine3": "The Hill",
+			  "addressLine4": " ",
+			  "postalCode": "13359",
+			  "country": "Germany"
+			}
+		  },
+		  "ownership": "purchase",
+		  "isPreferredAddress": true
+		}
+	  ]
+	}
+  }
+}
